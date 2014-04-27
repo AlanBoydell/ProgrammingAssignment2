@@ -13,7 +13,7 @@ bla <- makeCacheMatrix()
 bla$set( matrix( c(23,54,23,90), 2, 2 ) )
 
 # for the first call, the inverse matrix is calculated
-cacheSolve(myMatCache)
+cacheSolve(bla)
 ```
 
 ```
